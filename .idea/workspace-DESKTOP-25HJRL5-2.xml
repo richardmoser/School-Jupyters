@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d1cc253-860b-41ca-b7c5-0c8fd6eb94d7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/school jupyters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.ML 2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.ML_1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.ML_2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.ML_3-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.ML_4-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS Ch1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS Ch2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS Ch3-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS Ch4-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS_Ch4-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS_Ch5-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS_Ch6-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/0.OS_MT2_Review-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/330 E1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/330 Final Stuff-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/330 Graphs I guess-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/330 Trees-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/330 review or something-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 API-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 Cloud Computing-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 File Server-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 Graphics-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 HTML Forms-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 Haskell-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 JavaScript I-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/368 Node.js-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Assignment 6-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Assignment 7-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/EECS 330 Classes-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/EECS 330 Hash Tables-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/EECS 330 Pointers and r and l Values-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/EECS 658 ML-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/EECS 678 OS-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Haskell Noodling-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Haskell_notes-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/SCC Team Stuff-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Summit Weather Noodling-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/python sandbox-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.ML_1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.ML_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.ML_3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.ML_4.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch4.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch6.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch8.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Ch9.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_Final.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_MT1_Review.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.OS_MT2_Review.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0.Personal SCC stuff.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3-body Velocity Verlet.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/330 E1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/330 Final Stuff.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/330 Graphs I guess.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/330 Trees.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/330 review or something.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 API.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 Cloud Computing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 File Server.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 Graphics.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 HTML Forms.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 Haskell.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 JavaScript I.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/368 Node.js.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/Assignment 6.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/Assignment 6asdf.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/Assignment 6backup.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/Assignment 7.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/EECS 330 Classes.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/EECS 330 Hash Tables.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/EECS 330 Pointers and r and l Values.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/Haskell Noodling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/Haskell_notes.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/Summit Weather Noodling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/python sandbox.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/some In Class.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Archive/test.hs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCC Team Stuff.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/iris.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1to1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2level.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/461.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BurstEstEg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/CoW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FCFSeg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FCFSeg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FCFSeg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FP_and_FN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Freviewq15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Freviewq17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ICP_28Nov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/LRU_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/LSTM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MAB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MAB_simulation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MAB_simulation_results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ML_IC_05_Oct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MMIO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MT2reviewtable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MT2reviewtable2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/MultilevelQueue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PCA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PCAplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PoV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/RoundRobin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SJF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/SJFeg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Zag Rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Zag-Zag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Zig Rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Zig-Zag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Zig-Zig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/adaboostM1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avl_left_rotation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avl_right_rotation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bds_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/beladyfifo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/buddy_system.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/choosingk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cliff_walking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/covariance_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/discriminant_analysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eg_race_cond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/eigenvs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/epsilongreedy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fifo_page_alg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/foldr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/granttchart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/granttinterp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/hashChaining1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lrs_example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mean_centered_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/microprocessortrends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mmu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/monitorCoordination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/monitorME.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/monitorMEeg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mto1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mtom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/multiclass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/onedrive are you listening.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/optimal_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/os_mt1_review_qs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/page_fault_frequency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pagefault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pagefault_working_set.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pairwise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pairwise2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/portopotty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/preSJFeg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/preSJFeg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/process_memory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/process_memory2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/process_scheduling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/qlearnroom1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/qlearnstate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/qlearnstaterewards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/qlearntable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/quicksort.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/recoerror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/replacementgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sarsaeg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sliding_pane_CNN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/soduko_ic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/softmax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/solarisdispatch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sourcetobinary.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/specificity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/syllabification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thrashing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/threads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/workloadmodel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2UJ4G9N55TOR8gytf0cQhI5Dzjl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;MATLAB_INTERPRETER&quot;: &quot;C:\\Program Files\\MATLAB\\R2015b\\bin&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rj/OneDrive - University of Kansas/College Stuff/0.2023Fall/PHSX 521 Mechanics I/Programming Assignments/3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.Unnamed (1)">
+    <configuration default="true" type="MatlabApplication">
+      <option name="FILE_PATH" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="PARAMETERS" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="school jupyters" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (RichardMoser_Assignment1)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="school jupyters" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.Unnamed (1)" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d1cc253-860b-41ca-b7c5-0c8fd6eb94d7" name="Changes" comment="" />
+      <created>1692644250833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692644250833</updated>
+      <workItem from="1692644287582" duration="312000" />
+      <workItem from="1692803030299" duration="84000" />
+      <workItem from="1692817580035" duration="1464000" />
+      <workItem from="1692909835752" duration="4407000" />
+      <workItem from="1692931448638" duration="107000" />
+      <workItem from="1692931567431" duration="789000" />
+      <workItem from="1693249067850" duration="2737000" />
+      <workItem from="1693342457263" duration="1278000" />
+      <workItem from="1693343757053" duration="1278000" />
+      <workItem from="1693408874410" duration="7000" />
+      <workItem from="1693421953988" duration="2880000" />
+      <workItem from="1693514828056" duration="485000" />
+      <workItem from="1693515340418" duration="1858000" />
+      <workItem from="1693517216081" duration="1689000" />
+      <workItem from="1693582635724" duration="2314000" />
+      <workItem from="1693587832561" duration="833000" />
+      <workItem from="1693589719340" duration="1243000" />
+      <workItem from="1693594549387" duration="2299000" />
+      <workItem from="1693597165180" duration="601000" />
+      <workItem from="1693865332756" duration="243000" />
+      <workItem from="1693865594371" duration="338000" />
+      <workItem from="1693942931501" duration="613000" />
+      <workItem from="1693947380898" duration="3144000" />
+      <workItem from="1694026471650" duration="3255000" />
+      <workItem from="1694120052147" duration="3213000" />
+      <workItem from="1694199820563" duration="2218000" />
+      <workItem from="1694376246360" duration="169000" />
+      <workItem from="1694631664588" duration="2816000" />
+      <workItem from="1694724906480" duration="86000" />
+      <workItem from="1694725025883" duration="19000" />
+      <workItem from="1694725060335" duration="2780000" />
+      <workItem from="1694804447498" duration="2822000" />
+      <workItem from="1695063449069" duration="3125000" />
+      <workItem from="1695329762941" duration="3844000" />
+      <workItem from="1695338470153" duration="475000" />
+      <workItem from="1695339222714" duration="34000" />
+      <workItem from="1695350662534" duration="1186000" />
+      <workItem from="1695394918484" duration="7000" />
+      <workItem from="1695409332259" duration="2651000" />
+      <workItem from="1695414261619" duration="78000" />
+      <workItem from="1695668599548" duration="2786000" />
+      <workItem from="1695760410608" duration="11000" />
+      <workItem from="1695777920191" duration="2375000" />
+      <workItem from="1695832511793" duration="15000" />
+      <workItem from="1695841316359" duration="2811000" />
+      <workItem from="1695929527977" duration="151000" />
+      <workItem from="1695929701705" duration="60000" />
+      <workItem from="1695930399085" duration="1680000" />
+      <workItem from="1695934673080" duration="70000" />
+      <workItem from="1695934744078" duration="146000" />
+      <workItem from="1695934918537" duration="26000" />
+      <workItem from="1695934963260" duration="24000" />
+      <workItem from="1695935008002" duration="151000" />
+      <workItem from="1695935178716" duration="2562000" />
+      <workItem from="1695940033130" duration="74000" />
+      <workItem from="1696014489339" duration="2357000" />
+      <workItem from="1696273390927" duration="3013000" />
+      <workItem from="1696355307379" duration="717000" />
+      <workItem from="1696367651984" duration="2576000" />
+      <workItem from="1696475960174" duration="175000" />
+      <workItem from="1696535535924" duration="40000" />
+      <workItem from="1696539111254" duration="3112000" />
+      <workItem from="1696606554227" duration="16000" />
+      <workItem from="1696619296640" duration="2124000" />
+      <workItem from="1696878054543" duration="2890000" />
+      <workItem from="1696903006060" duration="23000" />
+      <workItem from="1696971485182" duration="540000" />
+      <workItem from="1696972039697" duration="1736000" />
+      <workItem from="1697036550193" duration="24000" />
+      <workItem from="1697050808154" duration="684000" />
+      <workItem from="1697051519429" duration="2221000" />
+      <workItem from="1697067965051" duration="9000" />
+      <workItem from="1697137897634" duration="1112000" />
+      <workItem from="1697140092492" duration="600000" />
+      <workItem from="1697152792608" duration="29000" />
+      <workItem from="1697169277588" duration="179000" />
+      <workItem from="1697223470205" duration="2864000" />
+      <workItem from="1697414307477" duration="8000" />
+      <workItem from="1697561479471" duration="583000" />
+      <workItem from="1697565987145" duration="9000" />
+      <workItem from="1697655466472" duration="128000" />
+      <workItem from="1697655621976" duration="3008000" />
+      <workItem from="1697749223008" duration="2898000" />
+      <workItem from="1697829267334" duration="1943000" />
+      <workItem from="1698087564430" duration="1300000" />
+      <workItem from="1698088891380" duration="1751000" />
+      <workItem from="1698119116451" duration="175000" />
+      <workItem from="1698181167589" duration="1633000" />
+      <workItem from="1698260444131" duration="317000" />
+      <workItem from="1698260787673" duration="2587000" />
+      <workItem from="1698353461910" duration="2060000" />
+      <workItem from="1698379305899" duration="199000" />
+      <workItem from="1698379531637" duration="323000" />
+      <workItem from="1698434121379" duration="2140000" />
+      <workItem from="1698692503029" duration="496000" />
+      <workItem from="1698693541244" duration="1834000" />
+      <workItem from="1698761457213" duration="13000" />
+      <workItem from="1698865258431" duration="2803000" />
+      <workItem from="1699025082340" duration="222000" />
+      <workItem from="1699025333359" duration="3161000" />
+      <workItem from="1699288287905" duration="10000" />
+      <workItem from="1699288591483" duration="597000" />
+      <workItem from="1699300771554" duration="3015000" />
+      <workItem from="1699306112439" duration="13000" />
+      <workItem from="1699318313739" duration="271000" />
+      <workItem from="1699319587815" duration="20000" />
+      <workItem from="1699473545024" duration="2955000" />
+      <workItem from="1699566176252" duration="3639000" />
+      <workItem from="1699570312998" duration="113000" />
+      <workItem from="1701115384821" duration="347000" />
+      <workItem from="1701115747976" duration="196000" />
+      <workItem from="1701115964124" duration="215000" />
+      <workItem from="1701116192568" duration="1841000" />
+      <workItem from="1701181946660" duration="12000" />
+      <workItem from="1701208885546" duration="1977000" />
+      <workItem from="1701212473668" duration="644000" />
+      <workItem from="1701287717338" duration="3183000" />
+      <workItem from="1701381552763" duration="231000" />
+      <workItem from="1701381801096" duration="2196000" />
+      <workItem from="1701462523200" duration="1266000" />
+      <workItem from="1701710051950" duration="157000" />
+      <workItem from="1701720023310" duration="2010000" />
+      <workItem from="1701722054019" duration="958000" />
+      <workItem from="1701790652973" duration="27000" />
+      <workItem from="1701818808181" duration="1323000" />
+      <workItem from="1701822550199" duration="434000" />
+      <workItem from="1701879949325" duration="9000" />
+      <workItem from="1701881369845" duration="545000" />
+      <workItem from="1701892934403" duration="2813000" />
+      <workItem from="1701899214519" duration="191000" />
+      <workItem from="1702244364644" duration="1148000" />
+      <workItem from="1702307791228" duration="946000" />
+      <workItem from="1702316339056" duration="180000" />
+      <workItem from="1702316532232" duration="129000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/EECS_678_OS_ipynb$test.coverage" NAME="test Coverage Results" MODIFIED="1694120369854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EECS_678_OS_ipynb$CheckVersions.coverage" NAME="CheckVersions Coverage Results" MODIFIED="1693422628644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../0.2023Fall/EECS 658 ML/RichardMoser_Assignment1" />
+  </component>
+</project>
