@@ -1,102 +1,48 @@
-Hi Richard,
-
-Please follow the next steps. I must have these items before a plan can be written. 
-
- - [ ] degree analysis 
- - [ ] and a degree plan 
- - [ ] 5 jobs that you will be able to obtain with degree and experience after completing the training.
-
-I have included all of them below.
+Getting Your Foot in the Door and Staying There: Leveraging SQLmap to Penetrate Insecure Systems
+Richard Moser
+Incoming B.S., Interdisciplinary Computing
+University of Kansas, Lawrence KS
 
 
-Reminder:
-Voc Rehab is a process-this evaluation and planning is all about YOU!It is important to complete all the tasks, assignments and forms and bring to your follow up appointments as required.
+Abstract
+SQLmap is a powerful tool for penetration testing of web applications with SQL databases. It allows application developers and system administrators to test their systems for vulnerabilities and to fix them before a malicious user can exploit them. This paper demonstrates the use of SQLmap to access a database with weak security and crack the passwords of the users stored within. The demonstration shows how quickly and efficiently SQLmap can be used to exploit a system with known vulnerabilities.
+
+1	Introduction
+SQLmap is an open-source tool developed to find and exploit SQL injection vulner-abilities in web-based applications. It is capable of rapidly testing a large number of common vulnerabilities in SQL databases of many different configurations, often without any special setup or customization. If it detects vulnerabilities, it is then capable of attempting to exploit them to gain access to the information in the data-base. Often the target information is a username and password which would allow the malicious user to log in with a legitimate account. If hashed passwords are found, SQLmap is capable of using dictionary attacks with either a built-in default dictionary, a user supplied dictionary, or even a series of dictionary files.
+Because of the one-stop-shop nature of SQLmap, it is a popular tool for testing web applications for SQL injection vulnerabilities. For the same reason, it is also frequently used by malicious users to take advantage of these vulnerabilities. It is important to note that using this or any other penetration testing technique on a sys-tem without the explicit permission of the owner(s)of all hardware involved is un-ethical and illegal in most jurisdictions.
+The goal of this paper is to describe the utility and use of SQLmap in the context of penetration testing. It will begin by describing the motivation behind the use of SQLmap and the types of vulnerabilities it is capable of detecting. Then it will demonstrate its use by finding and exploiting vulnerabilities in a web app to access and then crack passwords. The paper will conclude with a discussion of the implications of the demonstration and the importance of using tools like SQLmap to test for vulnerabilities in web applications.
+
+Figure showing vulnerability testing -> exploitation -> data access -> password cracking.
+
+2	Motivation
+SQL injection is the process of inserting malicious SQL code into a web form in-tended to interact with a database. If the input is not sanitized, i.e. treated as text and not code to be run, the server will execute the code, potentially allowing the attacker to access and modify the contents of the database. Verifying that a system is not vulnerable to such attacks can be difficult as a request to the server is inherently going to include some form of SQL code to handle the query.
+SQLmap aims to automate much of the process of testing for vulnerabilities in systems interacting with SQL databases. It is preconfigured with a large number of known vulnerabilities and can be run from the command line. This helps to reduce the amount of time and effort which a penetration tester must spend familiarizing themselves with every single possible vulnerability. It also allows the focus to shift away from the process of testing for common vulnerabilities and towards the process of fixing the vulnerabilities and investigating more niche vulnerabilities.
+
+3	Demonstration
+3.1	Environment
+The example environment used in this paper was two virtual machines running on a single physical machine. Kali Linux was used on the penetration testing machine and OWASP Broken Web Applications was used on the machine which was targeted. The two machines were connected to the same host-only network and the IP address of the target machine was known. No other network connectivity was enabled on the virtual machines.
+The example environment used in this paper was two virtual machines running on a single physical machine. Kali Linux was used on the penetration testing machine and OWASP Broken Web Applications was used on the machine which was targeted. The two machines were connected to the same host-only network and the IP address of the target machine was known. OWASP Broken Web Applications is a collection of different web applications which are installed with versions known to be vulnera-ble to various attacks. OWASP Mutillidae II is the application which was tested in this demonstration. Mutillidae II is built to be vulnerable to more than 40 known vulnerabilities including SQL injection which makes it an ideal target for testing.
+
+Kali Linux is a Debian-based Linux distribution which includes many tools for pene-tration testing including SQLmap. One additional tool was used for this demonstra-tion, Burpe Suite. Burpe Suite is itself a collection of web application security test-ing tools, including a proxy server which can be used as a man-in-the-middle, moni-toring, modifying, and sending requests between two machines. Intercepted requests can be fed into SQLmap for analysis and exploitation.
+3.2	Process
+
+Once the virtual machines were set up and connected to the network, the IP address of the target computer was determined via the ifconfig command. In this case, it was 192.168.131.3. Next, from the Kali machine, Burpe Suite was started and a new pro-ject was created. The Burpe Suite proxy was turned on with intercept enabled. The suite's built-in browser was used to navigate to the Mutillidae II login page on the target machine (Figure 1). A random username and password were entered as the point was to intercept the request and analyze it, not to actually log in. Nothing oc-curred in the browser when "Login" was clicked because the request was intercepted by Burpe Suite and not passed on to the target machine. In Burpe Suite, the inter-cepted request was shown on screen (Figure 2). The text of this message was saved to a text file to be fed into SQLmap.
 
 
-You must provide a vocational goal VRE cannot approve a vocational goal which may EXACERBATE YOUR DISABILITIES AND/OR
-CONDITIONS-medical, mental, physical and/or emotional health. It is important to enter a training program which will lead you to an occupation that is compatible with your disabilities, aptitudes, abilities and interests.
+Figure 1: Kali machine Mutillidae II login screen
 
+Figure 2: Burpe Suite interception of HTTP POST Request with dummy credentials
+SQLmap was run from the command line using `sqlmap -r request.txt -p username`. The -r flag specifies the file to read the request from and the -p flag specifies the parameter to test for SQL injection. Here, the parameter tested was the username. SQLmap then began testing for vulnerabilities and found that the database type was MySQ. After finding that the database was vulnerable to SQL injection, SQLmap began to dump the database contents to the screen. One table in the data-base "webgoat_coins", was named "customerlogins" and contained usernames and hashed passwords. By using the `--passwords` flag, SQLmap was prompted to at-tempt to crack the passwords.
 
-Mandatory Requirement for Chapter 31 Participants: LABOR MARKET RESEARCH
+3.3	Results
+Using the default dictionary and no other special parameters, SQLmap cracked the plaintext values of the first 10 passwords in the table in roughly 20 seconds (Fig-ure 3). SQLmap was also able to read the credit card data related to these accounts stored in a separate table. Even in the case that it was encrypted, using these login credentials would allow a malicious attacker to access each user’s financial information. Several usernames appeared to be administrative user accounts such as “webmaster” which would likely allow an attacker to upload malicious code, potentially recording and transmitting further sensitive information.
 
-Any program of education, training or employment services authorized under Ch31 program must be supported with the current and detailed labor market research. A referral will be sent to schedule and appointment at the Kansas Workforce Center for vocational research and labor market information and occupational summary on potential suitable jobs you may be interested in pursuing.
+Figure 3: SQLmap terminal output showing cracked passwords. The username appears by the star, e.g. bricks, bwapp, citizens, while the clear-text password is listed below.
+4	Conclusions
+SQLmap is a powerful tool for penetration testing of web applications with SQL databases. It can rapidly deploy many different types of attacks and is capable of finding and exploiting vulnerabilities in a wide variety of configurations with a rela-tively low amount of effort. It is important that system administrators and develop-ers utilize tools like SQLmap to check for vulnerabilities in their own systems be-fore a malicious user checks for them. The demonstration in this paper shows how no more than an intercepted request and SQLmap can gain access to a weakly se-cured database's contents and crack passwords within a few minutes in the hands of a first time user. This  is a powerful tool which can be used for both good or for mali-cious purposes.
 
-* Bring your labor market information with you to your next scheduled visit. We cannot progress until you provide this information.
+It is important to note that using this 
 
-- [ ] *Bring job announcements for the local area for each of your occupational interests. These are used as evidence for the VR&E Services to meet the minimum qualifications listed. It is important that the completion of the proposed training will meet the minimum job qualifications listed in the job announcement.
-
-Mandatory Requirement for Chapter 31 Participants: EDUCATION:
-
-**Do you have enough months of entitlement to complete the necessary training and professional licensure/certification/degree for suitable entry-level employment?
-
-- [ ] *Provided a copy of academic transcript
-- [ ] *Investigate/research local schools, sites, certification programs (approved VA facilities).
-
-- [ ] *Obtain a degree plan or training program from a school in the area you might want training. (Be sure to consider entry requirements, location, hours, fees and degree requirements.)
-
-
-**Do not enroll without prior approval**
-
-Once training research has been completed, reviewed and endorsed then the following should be completed:
-
-*Meet with an academic advisor at the training facility that provides a program of study related to each of your vocational interests. Obtain the following from the academic advisor from that school.
-
-*Admission requirements and proof of admission
-
-*Semester by Semester degree plan which serves a guide to take courses.
-
-*Degree audit that lists the required courses & courses accepted as transfer creditn
-
-If you have the Post 911 GI Bill (Chapter 33) available for your use:
-
-*Request and apply for the Certificate of Eligibility Letter indicating the months of entitlement available to you under the Chapter 33 program by applying on-line at https://www.va.gov
-
-OR
-
-*Go to GI Bill or ebenefits website for more information: http://www.benefits.va.gov/gibill/
-
-
-*Upon receipt submit a copy of your Post 911 GI Bill Certificate of eligiblity to your counselor.
-
-
-
-
-REFERENCES:
-
-The following online videos regarding VA programs are available for view:
-
-*Vocational Rehabilitation and Employment Chapter 31: http://youtu.be/pq1eDxZv1Zk
-
-*Department of Veteran Affairs VA Benefits: https://explore.va.gov
-
-
-REMEMBER: You agree that we (VocRehab) cannot train you in an area that will aggravate or worsen your disabilities, medical, physical or mental health. Please keep this in mind when you research various career fields. The purpose of this program is to provide you with entry-level job skills so you are employable and will secure employment at the conclusion of your training program.
-
-
-
-Regards,
-Wendy Redmon-Page, Rehabilitation Counselor
-VBA VR&E
-
-Email: eva@va.gov
-
-
-
-# 03Oct24 Call with Wendy Redmon-Page, call with Angela Warwick
-## Wendy
-- summary of call (from email to Angela)
-<h5>
-Angela,
-I just got off the phone with Wendy and it kindof started with a hard no and ended with a "I'll run it by my supervisor but we don't do PhDs." She said that she doesn't know anyone in a PhD program and that they could do a masters program on the basis that I could be an adjunct professor with a masters. My understanding is that adjuncts are part time or contract workers by their nature, so I didn't quite think that fit the stability portion of the definition of suitable employment. I mentioned that as well as that my strong preference is to work at a national lab and that in the high energy neutrino detection community, everyone is either working in a national lab or a full time professor who is actively engaged in research. The O NET page for physicists shows for new hires, 49% need a doctoral degree, 39% need to do a postdoc, and 8% can get away with  a "Post-master’s certificate".
-  <h5>
-I tried to bring up a few of the talking points you mentioned like how I've been on this path for 4 years quite consistently or that I haven't had access to the VRE resources for my undergrad and that submitting for the Chapter 33 reimbursement still takes away those resources when I probably need them most. I also mentioned that I was told by my research advisor (and several grad students at other institutions) that no one applies to a masters program in physics, they apply for a PhD and they may take the masters and walk when they get to that point if that is their plan. I didn't really get a chance to say much more than that though and she didn't seem super interested in hearing it so I doubt much of that will make it to her supervisor. We didn't even talk about how any of this relates to my disabilities where probably the number one thing I am looking for is stability and adjunct sounds like the exact opposite of that is written into the job description. I'm not really sure if there's a way to convey any additional context at this point. She said she would try to schedule an appointment for next week because she is out the next. I am hoping that she has time early in the week because I'm packing and traveling (to present research at a conference) Thursday through Monday.
-  <h5>
-</h5>
-One other note, I called the GI Bill phone line and they confirmed that I am sort of in pergatory with things staying denied until I am determined to be in or out of the VRE program. I figured I'd let you know since everyone seems to be surprised when I tell them I'm not getting paid haha. Hopefully I'm an edge case and this doesn't happen to anyone in the future.
-  </h5>
-<h5>
-Let me know if you have any advice for communicating my intentions or proceeding otherwise. I really don't want to settle for "you could be an adjunct" and then not be able to access the counseling and support during grad school and then when I look for a job and would therefore benefit from employment assitance. Thanks for all your patience and help in this process!
-</h5>
-
-## Angela
-- remaining Chapter 33 days: 5 months, 27 days
+References
+1.	Sqlmapproject. (n.d.). Home. GitHub. https://github.com/sqlmapproject/sqlmap/wiki
+2.	OWASP Mutillidae II | OWASP Foundation. (n.d.). https://owasp.org/www-project-mutillidae-ii/
