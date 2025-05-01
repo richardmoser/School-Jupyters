@@ -9,4 +9,4 @@
 
 # Jetbrains IDE files
 .idea/workspace.xml
-.idea/*
+.idea/
